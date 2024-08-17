@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  background-color: black;
+  font-family: sans-serif;
+}
+main {
+  background-image: url(./Images/netflix-background-gs7hjuwvv2g0e9fj.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 110vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5em;
+}
+.nav img {
+  height: 3em;
+}
+.nav button {
+  width: 5em;
+  height: 2.5em;
+  border-radius: 7px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-weight: 550;
+}
+.nav button:hover,
+.str-btn:hover,
+.box-button:hover{
+  cursor: pointer;
+  background-color: rgb(227, 26, 26);
+}
+.text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 13em;
+  line-height: 4em;
+}
+.head1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
+}
+.head2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 550;
+}
+.head3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+}
+.email-box,
+.str-btn {
+  width: 18em;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: white;
+  font-size: 20px;
+}
+.str-btn {
+  width: 8em;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+}
+.separate {
+  height: 10px;
+  background-color: rgb(62, 60, 60);
+  width: 100vw;
+}
+section {
+  height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 120px;
+}
+.tv-text h1 {
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+.tv-text h3 {
+  font-size: 1.2em;
+  line-height: 28px;
+  font-weight: 400;
+}
+.tv-video img {
+  height: 18em;
+  position: absolute;
+}
+.tv-video video {
+  height: 13em;
+}
+.mobile-pic {
+  padding-top: 80px;
+}
+.mobile-pic img {
+  height: 25em;
+  width: 28em;
+}
+.pic2 {
+  border: 2px solid gray;
+  height: 7em;
+  position: relative;
+  bottom: 9em;
+  width: 300px;
+  margin-left: 4.5em;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pic2 img {
+  height: 80px;
+  width: 70px;
+}
+.pic2 #download-icon {
+  height: 50px;
+  width: 50px;
+}
+.download-text {
+  padding-top: 8px;
+  font-weight: 400;
+  color: rgb(61, 61, 248);
+}
+.mobile-text h1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.mobile-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.text-sect {
+  height: 70vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 120px;
+}
+.text-section {
+  margin-right: 500px;
+}
+.text-section h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+.text-section h3 {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 25px;
+}
+.cartoon-img {
+  height: 25em;
+}
+.kids-section h1 {
+  font-size: 3.5em;
+  /* padding-bottom: 1em; */
+}
+.kids-section h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+.faq-section {
+  height: 135vh;
+  color: white;
+  padding-top: 70px;
+}
+.faq-section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.faq-box {
+  padding-top: 35px;
+  padding-left: 170px;
+}
+.faq-ques {
+  background-color: #2d2d2d;
+  padding: 22px;
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.faq-ques:hover {
+  background-color: rgb(79, 76, 76);
+}
+.box-text {
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.box-flex {
+  margin-left: 160px;
+  margin-top: 20px;
+}
+.box-email {
+  padding: 17px;
+  background-color: transparent;
+  color: white;
+  width: 350px;
+  font-size: 19px;
+  border-radius: 4px;
+}
+.box-button {
+  margin-left: 18px;
+  width: 160px;
+  padding: 17px;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+}
+footer {
+  height: 80vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-text ul li a {
+  color: rgb(151, 144, 144);
+}
+.footer-text ul li {
+  list-style: none;
+  padding-bottom: 25px;
+}
+.lang-icon {
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid rgb(151, 144, 144);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.lang-icon i {
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+}
+.lang-icon select {
+  height: 22px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.lang-icon:hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+.footer-text p {
+  padding-top: 20px;
+  color: rgb(151, 144, 144);
+}
