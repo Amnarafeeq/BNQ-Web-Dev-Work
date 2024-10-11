@@ -1,0 +1,226 @@
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.courses{
+    width: 80%;
+    height: 200vh ;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.courses-logo{
+    width: 18vw;
+    height: 28vh;
+}
+.course-details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.courses h1{
+    text-transform: uppercase;
+    font-size: 2.3em;
+    line-height: 80%;
+    margin: 1em 0 1.5em 0;
+    font-weight: 500;
+}
+.course-pictures{
+    width: 22vw;
+    height: 55vh;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5); 
+}
+.pic-1{
+    width: 22vw;
+    height: 25vh;
+}
+.card-title{
+    padding: 0.3em 0 0 0.5em;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+}
+.course-pictures p{
+    font-size: 15px;
+    text-align: center;
+}
+.all-pictures{
+    height: 28vh;
+    width: 22vw;
+}
+.last-pic{
+    margin-right: 640px;
+}
+.course-pictures:hover{
+    transform: scale(1.03);
+    box-shadow: 
+    0px 5px 5px rgba(0, 0, 0, 0.5), 
+    0px -5px 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* For Smaller Smartphones */
+
+@media only screen and (max-width: 480px) {
+    .courses {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .courses-logo {
+        width: 50%;
+        height: auto;
+    }
+    
+    .course-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .course-pictures {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+    
+    .all-pictures {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-title {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0.5em 0;
+    }
+    
+    .course-pictures p {
+        font-size: 14px;
+    }
+    
+    .courses h1 {
+        font-size: 2em;
+        line-height: 1.2;
+    }
+    
+    .last-pic {
+        margin-right: 0;
+    }
+}
+
+/* Tablets and larger smartphones */
+ 
+@media (min-width: 481px) and (max-width: 768px) {
+    .courses {
+        width: 70%;
+        height: auto; 
+        margin-top: 30px;
+    }
+    
+    .courses-logo {
+        width: 40vw;
+        height: auto; 
+    }
+    
+    .course-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .course-pictures {
+        width: 80%;
+        height: auto; 
+        margin-bottom: 25px;
+        box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.5); 
+    }
+    
+    .all-pictures {
+        width: 100%;
+        height: auto; 
+    }
+    
+    .card-title {
+        padding: 0.5em 0 0 0.5em;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .course-pictures p {
+        font-size: 15px;
+    }
+    
+    .courses h1 {
+        font-size: 2.2em;
+        line-height: 1.2;
+    }
+    
+    .last-pic {
+        margin-right: 0;
+    }
+    
+    .course-pictures:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4), 0px -4px 4px rgba(0, 0, 0, 0.4); 
+    }
+}
+
+/* Media query */
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .courses {
+        width: 95%;
+        height: auto; 
+        margin-top: 40px;
+    }
+    
+    .courses-logo {
+        width: 25vw;
+        height: auto; 
+    }
+    
+    .course-details {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .course-pictures {
+        width: 30%;
+        height: auto; 
+        margin-bottom: 30px;
+        box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5); 
+    }
+    
+    .all-pictures {
+        width: 100%;
+        height: auto; 
+    }
+    
+    .card-title {
+        padding: 0.5em 0 0 0.5em;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .course-pictures p {
+        font-size: 16px;
+    }
+    
+    .courses h1 {
+        font-size: 2.4em;
+        line-height: 1.1;
+    }
+    
+    .last-pic {
+        margin-right: 25em;
+    }
+    
+    .course-pictures:hover {
+        transform: scale(1.03);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5), 0px -5px 5px rgba(0, 0, 0, 0.5);
+}
+}
